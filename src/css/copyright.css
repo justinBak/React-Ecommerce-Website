@@ -1,0 +1,23 @@
+.copyright-container {
+  margin-top: 130px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  vertical-align: bottom;
+  font-size: 1vw;
+  background-color: #DBD4D3;
+}
+
+p {
+  margin-bottom: 0;
+  vertical-align: middle;
+  align-items: center;
+  align-self: center;
+}
+
+.copyright-symbol {
+  vertical-align: middle;
+  align-items: center;
+}

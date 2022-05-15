@@ -1,0 +1,139 @@
+.navbar{
+    display: flex;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo{
+    width: 10%;
+    height: auto;
+}
+
+.bg-light{
+    background-color: #387780 !important;
+}
+
+.nav-link{
+    color: #DBD4D3 !important;
+    font-weight: bold;
+    font-family: "Space Mono";
+    display: flex;
+}
+
+.hover:hover{
+    color: #5abbca !important;
+    text-decoration: none;
+}
+
+.navbar-brand{
+    color: #DBD4D3 !important;
+    font-weight: bold;
+    font-family: "Space Mono";
+    font-size: 2vh;
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    color: #dbd4d3 !important;
+    font-family: "Space Mono";
+    align-self: center;
+}
+
+.shop-btn {
+    margin: 0 !important;
+    margin-left: 50px !important;
+    background-color: #8aa6aa;
+    border: none;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    fill: #DBD4D3 !important;
+    font-weight: bold;
+    font-family: "Space Mono";
+}
+
+.cart:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cart-icon-text {
+    position: absolute;
+    font-size: 10px;
+    margin-left: 13.5px;
+    margin-bottom: 5px;
+}
+
+.cart-position {
+    position: absolute;
+    font-size: 10px;
+    margin-left: 13px;
+    margin-bottom: 8px;
+}
+
+.container-fluid {
+    text-align: center;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.col-lg-6 {
+    justify-content: space-evenly;
+    margin-right: 0 !important;
+    padding: 0;
+}
+
+.col-lg-5 {
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.mobile-viewport {
+    margin: 0 !important;
+}
+
+.bi-cart {
+    width: 80px;
+    cursor: pointer;
+}
+
+.btn-size {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.btn-size:hover {
+    text-decoration: none;
+}
+
+.btn-secondary{
+    color: #dbd4d3 !important;
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.nav-container  {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col-lg-6 {
+    margin-left: 12vw;
+}
+
+.buttonLink{
+    text-decoration: none;
+    color: #DBD4D3;
+}
+
+.buttonLink:hover{
+    color: #DBD4D3;
+    text-decoration: none;
+}
